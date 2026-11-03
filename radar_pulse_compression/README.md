@@ -53,3 +53,5 @@ t_n=\frac{n}{f_s} \\
 $$
 
 My own interpretation: If $f$ was alone, it would work by simply inserting $f$ into $x(t)$, but because its time-dependent, we need to extract the current phase from the $f(t)$ function. Pay attention to the $t$ inside $f(t)$!
+
+![](Figure_1.png)

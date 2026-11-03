@@ -8,8 +8,9 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 add_executable(chirp chirp.c)
 add_executable(fft fft.c)
 add_executable(received received.c)
+add_executable(matched_filter matched_filter.c)
 
-foreach(target chirp fft received)
+foreach(target chirp fft received matched_filter)
 
   target_link_libraries(${target} PRIVATE m)
 
