@@ -46,6 +46,7 @@ $$
 $$
 
 For a sampling frequency $f_s$ and $n$ samples:
+
 $$
 t_n=\frac{n}{f_s} \\
 \rightarrow x(t) = Asin(2\pi(f_0 \frac{n}{f_s} + \frac{k}{2}(\frac{n}{f_s})^2))
