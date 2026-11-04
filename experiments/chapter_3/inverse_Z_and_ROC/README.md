@@ -60,7 +60,7 @@ $$
 
 $$
 h(n)\approx \frac{1}{M} \sum_{k=0}^{M-1}H(re^{j\theta_k})(re^{j\theta_k})^n
-$
+$$
 
 $$
 \boxed{
