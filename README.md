@@ -7,3 +7,4 @@ Current experiments include:
 * Radar pulse compression using chirp signals
 * Chapter 1: Sampling and resampling
 * Chapter 2: Radar distance resolution and calculation
+* Chapter 3: Inverse Z-transform and ROC
