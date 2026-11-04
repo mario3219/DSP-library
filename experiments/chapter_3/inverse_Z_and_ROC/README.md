@@ -31,14 +31,25 @@ $$
 The inverse Z-transform equation:
 
 $$
-h(n)=\frac{1}{2\pi j} \oint_C H(z)z^{n-1}dz \\
-z=re^{j \theta} \\
-dz=jre^{j \theta}d\theta = jzd \theta \\
+h(n)=\frac{1}{2\pi j} \oint_C H(z)z^{n-1}dz
+$$
+
+$$
+z=re^{j \theta}
+$$
+
+$$
+dz=jre^{j \theta}d\theta = jzd \theta
+$$
+
+$$
 h(n)=\frac{1}{2\pi j} \int_0^{2\pi}H(z)z^{n-1}(jz)d\theta
 $$
 
 $$
-\boxed{ h(n)=\frac{1}{2\pi} \int_0^{2\pi} H(re^{j\theta})(re^{j\theta})^n d\theta }
+\boxed{
+  h(n)=\frac{1}{2\pi} \int_0^{2\pi} H(re^{j\theta})(re^{j\theta})^n d\theta
+}
 $$
 
 Approximate using equally spaced samples (divide the circle into M angles):
