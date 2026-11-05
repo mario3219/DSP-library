@@ -4,3 +4,5 @@
 *.json
 *.raw
 build/
+clangd/
+compile_commands.json

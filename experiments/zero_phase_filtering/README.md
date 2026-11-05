@@ -1,0 +1,1 @@
+Placeholder for a future experiment about Zero-phase filtering. A conventional causal filter generally introduces phase distortion or delay. By using a Zero-phase filter, a signal can be processed offline as an anti-causal signal.
